@@ -1,0 +1,52 @@
+.header {
+    background-color: #f7f7f7;
+    top: 0;
+    margin: 0;
+    width: 100% !important;
+}
+
+.brand {
+    color: #1e1e1e;
+	text-transform: uppercase;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 900;
+    padding: 1% 15%;
+    transition: all 0.3s;
+}
+
+.brand:hover {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+
+.navlink {
+    font-size: 3rem;
+    color: #1e1e1e;
+    font-weight: 800;
+    text-transform: uppercase;
+	letter-spacing: 0.5px;
+    transition: all 0.3s;
+    padding: 1% 10%;
+}
+
+.navlink:hover {
+    text-decoration: none;
+    color: #f48840;
+}
+
+.navlink.active {
+    color: #f48840;
+}
+
+@media (max-width: 960px) {
+    .brand {
+        font-size: 2.5rem;
+    }
+
+    .navlink {
+        font-size: 1.5rem;
+        padding: 0.5% 0%;
+    }
+}

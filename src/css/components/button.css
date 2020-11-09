@@ -1,0 +1,15 @@
+.button {
+    cursor: pointer;
+    background-color:#f48840;
+    border: none;
+    border-bottom: 0.3rem solid #a1490f;
+    border-right: 0.2rem solid #a1490f;
+    font-size: 1.6rem;
+    color: white;
+    width: 20rem;
+    height: 5rem;
+}
+
+.button:active {
+    border: none;
+}
